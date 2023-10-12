@@ -1,0 +1,21 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Id": {
+        "type": "string"
+      },
+      "Name": {
+        "type": "string"
+      },
+      "DateOfBirth": {
+        "type": "string"
+      },
+      "Address": {
+        "type": "string"
+      }
+    },
+    "required": ["Id", "Name", "DateOfBirth", "Address"]
+  }
+}
